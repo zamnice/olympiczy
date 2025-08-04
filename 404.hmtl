@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - OlympicY</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #4a6fa5, #166088);
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            max-width: 600px;
+        }
+        h1 {
+            font-size: 5rem;
+            margin-bottom: 1rem;
+        }
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+        a {
+            color: white;
+            background-color: rgba(255, 255, 255, 0.2);
+            padding: 12px 24px;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        a:hover {
+            background-color: rgba(255, 255, 255, 0.3);
+        }
+        .logo {
+            height: 80px;
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<div class="search-container" style="margin-top: 2rem;">
+    <input type="text" placeholder="Cari materi..." id="404-search">
+    <button onclick="searchFrom404()">Cari</button>
+</div>
+<script>
+    function searchFrom404() {
+        const query = document.getElementById('404-search').value;
+        window.location.href = `/?search=${encodeURIComponent(query)}`;
+    }
+</script>
+<body>
+    <div class="container">
+        <img src="assets/img/logo.png" alt="OlympicY Logo" class="logo">
+        <h1>404</h1>
+        <p>Materi yang Anda cari tidak ditemukan. Mungkin sudah diluncurkan ke orbit lain 🚀</p>
+        <a href="/">Kembali ke Beranda</a>
+    </div>
+</body>
+</html>
