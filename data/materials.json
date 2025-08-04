@@ -1,0 +1,81 @@
+{
+    "featured": ["mat-001", "mat-005", "mat-008"],
+    "materials": [
+        {
+            "id": "mat-001",
+            "title": "Konsep Dasar Ekonomi Makro",
+            "description": "Pengantar konsep-konsep dasar dalam ekonomi makro untuk Olimpiade IPS",
+            "fileType": "pdf",
+            "url": "https://drive.google.com/file/d/1tG1JyrHYo9URriNdhCoxoqBKAsekkl6k/view?usp=drivesdk",
+            "thumbnail": "https://placeholder.pics/svg/400x300/DEDEDE/555555/Olympiczy",
+            "uploadDate": "2025-05-15",
+            "tags": ["ekonomi", "makro", "dasar"]
+        },
+        {
+            "id": "mat-002",
+            "title": "Teori Sosial Modern",
+            "description": "Ringkasan teori-teori sosial modern untuk persiapan Olimpiade IPS",
+            "fileType": "docx",
+            "url": "https://drive.google.com/file/d/1TB72wB4q99u7O-Sma-yz87sxuhfA_Vsl/view?usp=drivesdk",
+            "uploadDate": "2024-11-02",
+            "tags": ["sosiologi", "teori", "modern"]
+        },
+        {
+            "id": "mat-003",
+            "title": "Sejarah Peradaban Dunia",
+            "description": "Timeline perkembangan peradaban dunia dari masa pra-aksara hingga modern",
+            "fileType": "pptx",
+            "url": "https://drive.google.com/file/d/1tqsi8hsAMOmt9JLbvyim4AgU2NMsVpDF/view?usp=drivesdk",
+            "uploadDate": "2024-09-20",
+            "tags": ["sejarah", "peradaban", "dunia"]
+        },
+        {
+            "id": "mat-004",
+            "title": "Geografi Regional Indonesia",
+            "description": "Materi lengkap tentang geografi regional Indonesia",
+            "fileType": "pdf",
+            "url": "https://drive.google.com/file/d/1shrs0Z_hBcCifmBGHN2W_wvhieRA_CkA/view?usp=drivesdk",
+            "thumbnail": "https://files.catbox.moe/abc456.jpg",
+            "uploadDate": "2024-12-05",
+            "tags": ["geografi", "indonesia", "regional"]
+        },
+        {
+            "id": "mat-005",
+            "title": "Bank Soal Olimpiade IPS 2023",
+            "description": "Kumpulan soal Olimpiade IPS tahun 2023 beserta pembahasan",
+            "fileType": "pdf",
+            "url": "https://drive.google.com/drive/folders/1SpeVO78ORgu5FjqRkRNkEEGzZOtZcqy4",
+            "uploadDate": "2025-01-01",
+            "tags": ["soal", "olimpiade", "pembahasan"]
+        },
+        {
+            "id": "mat-006",
+            "title": "Infografis Perkembangan Ekonomi Global",
+            "description": "Infografis perkembangan ekonomi global 10 tahun terakhir",
+            "fileType": "png",
+            "url": "https://drive.google.com/file/d/1sgATMt0jUJS84wja-oGZ0gGKeFOEJw4-/view?usp=drivesdk",
+            "thumbnail": "https://placeholder.pics/svg/400x300/DEDEDE/555555/Olympiczy",
+            "uploadDate": "2025-01-01",
+            "tags": ["infografis", "ekonomi", "global"]
+        },
+        {
+            "id": "mat-007",
+            "title": "Catatan Ringkas Sosiologi",
+            "description": "Catatan ringkas konsep-konsep sosiologi penting",
+            "fileType": "pptx",
+            "url": "https://docs.google.com/presentation/d/1syb6rbhaG1k10XJDYZJCNbq5NxTohRRl/edit?usp=drivesdk&ouid=104064021048174325097&rtpof=true&sd=true",
+            "uploadDate": "2025",
+            "tags": ["catatan", "sosiologi", "ringkas"]
+        },
+        {
+            "id": "mat-008",
+            "title": "Analisis Kasus Olimpiade IPS 2022",
+            "description": "Analisis mendalam kasus-kasus yang muncul di Olimpiade IPS 2022",
+            "fileType": "pdf",
+            "url": "https://drive.google.com/file/d/8vwx234yza567bcd890/preview",
+            "thumbnail": "https://placeholder.pics/svg/400x300/DEDEDE/555555/Olympiczy",
+            "uploadDate": "2023-07-22",
+            "tags": ["analisis", "kasus", "olimpiade"]
+        }
+    ]
+}
