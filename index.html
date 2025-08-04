@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olympiczy - Social Studies Olympiad Material</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://files.catbox.moe/kynoku.ico">
+
+    <!-- Open Graph Meta Tags untuk Olympiczy -->
+    <meta property="og:title" content="Olympiczy - Free & Open Source Social Studies Olympiad Material by MerakitZam" />
+    <meta property="og:description" content="Learning the Social Studies Olympiad just got even more fun! Find comprehensive, interactive notes, questions, and Olympiad materials, all accessible for free." />
+    <meta property="og:image" content="https://files.catbox.moe/l8pp68.png" />
+    <meta property="og:url" content="https://olympiczy.vercel.app" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Olympiczy" />
+
+    <!-- Script untuk Konfigurasi -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.4.120/pdf.min.js"></script>
+    <script src="libs/fuse.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="assets/img/logo.png" alt="OlympicY Logo" class="logo">
+            <h1>Olympiczy</h1>
+            <p>The Most Complete Collection of Social Studies Olympiad Materials</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Cari materi...">
+                <button id="search-btn">Cari</button>
+                <button id="ai-help-btn">AI Assistant</button>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section id="featured-materials">
+            <h2>Materi Unggulan</h2>
+            <div class="materials-grid" id="featured-grid"></div>
+        </section>
+
+        <section id="all-materials">
+            <h2>Semua Materi</h2>
+            <div class="materials-grid" id="all-materials-grid"></div>
+        </section>
+
+        <div id="ai-modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>AI Assistant Olympiczy</h2>
+                <div id="ai-chat">
+                    <div id="ai-messages"></div>
+                    <div class="ai-input">
+                        <input type="text" id="ai-question" placeholder="Tanyakan tentang materi Olimpiade IPS...">
+                        <button id="ai-send">Kirim</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="preview-modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2 id="preview-title">Preview Materi</h2>
+                <div id="pdf-viewer"></div>
+                <div id="image-viewer"></div>
+                <div id="text-viewer"></div>
+                <a id="download-btn" href="#" target="_blank" class="download-btn">Download</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Olympiczy - Social Studies Olympiad Material Collection</p>
+            <p>Dibuat dengan 🚀 oleh Merakitzam</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
