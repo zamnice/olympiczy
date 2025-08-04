@@ -21,7 +21,7 @@ const aiQuestion = document.getElementById('ai-question');
 const aiSend = document.getElementById('ai-send');
 
 // Inisialisasi PDF.js
-pdfjsLib.GlobalWorkerOptions.workerSrc = 'libs/pdf.js/pdf.worker.js';
+pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.4.120/pdf.worker.min.js';
 
 // Load data dari materials.json
 fetch('data/materials.json')
